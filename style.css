@@ -1,0 +1,41 @@
+body {
+    background: url(img/bg.png);
+}
+
+button {
+    margin-top: 3px;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    
+}
+
+button:hover {
+    background-color: rgb(167, 67, 72);
+}
+
+input {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(167, 67, 72);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    margin-top: 5.0rem;
+    padding: 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .container {
+        width: 30%;
+    }
+}
